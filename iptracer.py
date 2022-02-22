@@ -1,7 +1,7 @@
 import json
 from urllib import request
 
-print("\n== IP Tracker - Xmall75 ==\n")
+print("\n== IP Tracer - Xmall75 ==\n")
 url = "http://ip-api.com/json/"
 ip = input("Input the IP Address : ")
 request = request.urlopen(url + ip)
@@ -16,4 +16,4 @@ if data_json['status'] == "success":
 	print(f"Longitude : {data_json['lon']}")
 	print(f"ISP : {data_json['isp']}")
 else:
-	print("Failed to find the IP informations.")
+	print("Gagal mencari maklumat IP Address.")
