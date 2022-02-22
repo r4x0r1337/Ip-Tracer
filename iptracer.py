@@ -3,7 +3,7 @@ from urllib import request
 
 print("\n== IP Tracer - BlackyGuy ==\n")
 url = "http://ip-api.com/json/"
-ip = input("Masukkan the IP Address : ")
+ip = input("Masukkan alamat IP Address : ")
 request = request.urlopen(url + ip)
 data_json = json.loads(request.read())
 
