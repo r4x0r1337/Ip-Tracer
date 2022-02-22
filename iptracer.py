@@ -1,9 +1,9 @@
 import json
 from urllib import request
 
-print("\n== IP Tracer - Xmall75 ==\n")
+print("\n== IP Tracer - BlackyGuy ==\n")
 url = "http://ip-api.com/json/"
-ip = input("Input the IP Address : ")
+ip = input("Masukkan the IP Address : ")
 request = request.urlopen(url + ip)
 data_json = json.loads(request.read())
 
